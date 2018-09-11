@@ -14,14 +14,13 @@ df.printSchema()
 
 from operator import add
 
-lines = spark.read.text("/home/kris/datasets/text/jane_austen.txt")
-lines.show(10, False)
-linesrdd = lines.rdd
-countsrdd = linesrdd.flatMap(lambda x: x.split(' ')) \
-              .map(lambda x: (x, 1)) \
-              .reduceByKey(add)
+linesdf = spark.read.text("/home/kris/datasets/text/jane_austen.txt")
+linesdf.show(10, False)
+
+lines = spark.read.text("/home/kris/datasets/text/jane_austen.txt").rdd.map(lambda r: r[0])
 
 counts = lines.flatMap(lambda x: x.split(' ')) \
               .map(lambda x: (x, 1)) \
               .reduceByKey(add)
+
 

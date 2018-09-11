@@ -139,10 +139,10 @@ New Wave:
 
 ## References
 
-install Spark on Windows: https://medium.com/@GalarnykMichael/install-spark-on-windows-pyspark-4498a5d8d66c 
-https://community.cloud.databricks.com/  = spark cloud
-https://sparkhub.databricks.com/
-https://forums.databricks.com/    OR   https://stackoverflow.com
-https://spark-packages.org/
-https://services.cs.rutgers.edu/hadoop.html  - for CS-related stuff
-https://www.cloudera.com/downloads/quickstart_vms/5-13.html  = for cloudera VM sandbox
+- install Spark on Windows: https://medium.com/@GalarnykMichael/install-spark-on-windows-pyspark-4498a5d8d66c 
+- https://community.cloud.databricks.com/  = spark cloud
+- https://sparkhub.databricks.com/
+- https://forums.databricks.com/    OR   https://stackoverflow.com
+- https://spark-packages.org/
+- https://services.cs.rutgers.edu/hadoop.html  - for CS-related stuff
+- https://www.cloudera.com/downloads/quickstart_vms/5-13.html  = for cloudera VM sandbox

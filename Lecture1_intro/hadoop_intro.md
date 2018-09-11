@@ -1,5 +1,11 @@
 ## Overview/Agenda
 
+- some Hadoop history
+- HDFS in action
+- MapReduce in principle
+- Spark in action
+- comparing WordCount in MapReduce, in Spark, in Pig
+- installing your software
 
 ## Big Data
 
@@ -15,13 +21,14 @@ Today's data is very big:
 - velocity
 - variety
 - (veracity)
-- (show IBM infographic)
+- (show IBM infographic) - https://www.ibmbigdatahub.com/sites/default/files/styles/xlarge-scaled/public/infographic_image/4-Vs-of-big-data.jpg?itok=4syrvSLX
 
 ## Hadoop
 
 - 2 meanings: 
    1. Stricter meaning = distributed file system HDFS (Hadoop Distributed File System)
    2. Larger meaning = HDFS + scheduler (YARN/Mesos/StandAlone) + computing engine (MapReduce or Spark)
+- more on architecture: https://github.com/rutgers-oarc/hadoop_intro/blob/master/hadoop-for-everyone.pdf 
 
 ## Hadoop history
 
@@ -29,7 +36,8 @@ Today's data is very big:
 - reimplemented by Doug Cutting et al, 2006, at Yahoo
 - written in Java
 - **IDEA**: use commodity hardware to process large datasets - must guard against hardware failures
-- (show Wiki table)
+- (show Wiki table) - https://en.wikipedia.org/wiki/Apache_Hadoop 
+- Apache Foundation: http://www.apache.org/index.html#projects-list  
 
 ## HDFS
 
@@ -37,7 +45,8 @@ Today's data is very big:
 - requires a Node manager - a server that keeps track of where each block is written; as soon as corruption is detected, self-healing starts
 - blocks are written on LOCAL hard disks (this is NOT how HPC systems behave - they have dedicated storage separate from compute)
 - commands are similar to the usual Unix file system e.g. `hdfs dfs -ls`
-- (show demo)
+- (show demo) - ssh kp807@data1.cs.rutgers.edu
+- https://github.com/rutgers-oarc/hadoop_intro/blob/master/hadoop-for-everyone.pdf  - near the end
 
 ## MapReduce
 
@@ -125,7 +134,14 @@ New Wave:
 
 ## Homework
 
-- install Spark on your laptops - 
-- ssh data1.cs.rutgers.edu
+- install Spark on your laptops - possibly sandbox VM - 
+- ssh data1.cs.rutgers.edu  and play around with the hdfs commands - put your favorite dataset in HDFS
 
+## References
+
+install Spark on Windows: https://medium.com/@GalarnykMichael/install-spark-on-windows-pyspark-4498a5d8d66c 
+https://community.cloud.databricks.com/  = spark cloud
+https://sparkhub.databricks.com/
+https://forums.databricks.com/    OR   https://stackoverflow.com
+https://spark-packages.org/
 

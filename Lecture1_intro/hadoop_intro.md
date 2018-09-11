@@ -134,15 +134,18 @@ New Wave:
 
 ## Homework
 
-- install Spark on your laptops - possibly sandbox VM - 
-- ssh data1.cs.rutgers.edu  and play around with the hdfs commands - put your favorite dataset in HDFS
+- install Spark on your laptops - google how! e.g. https://medium.com/@GalarnykMichael/install-spark-on-windows-pyspark-4498a5d8d66c - OR possibly sandbox VM if you want to play around with more Hadoop tools than just Spark - https://www.cloudera.com/downloads/quickstart_vms/5-13.html
+- ssh data1.cs.rutgers.edu and play around with the hdfs commands - put your favorite dataset in HDFS
+- think about what dataset you would like to explore for a project and get it to ilab system 
 
 ## References
 
 - install Spark on Windows: https://medium.com/@GalarnykMichael/install-spark-on-windows-pyspark-4498a5d8d66c 
-- https://community.cloud.databricks.com/  = spark cloud
-- https://sparkhub.databricks.com/
-- https://forums.databricks.com/    OR   https://stackoverflow.com
-- https://spark-packages.org/
+- https://community.cloud.databricks.com/  = spark cloud - has free tier to try out Spark (6Gb RAM)
+- https://sparkhub.databricks.com/  - community news
+- https://forums.databricks.com/    OR   https://stackoverflow.com  - for help with programming/troubleshooting
+- https://spark-packages.org/  - 3rd party software written for Spark
+- https://spark.apache.org/ - all things Apache Spark
 - https://services.cs.rutgers.edu/hadoop.html  - for CS-related stuff
 - https://www.cloudera.com/downloads/quickstart_vms/5-13.html  = for cloudera VM sandbox
+- https://www.cloudera.com/documentation/enterprise/5-7-x/PDF/cloudera-spark.pdf - Cloudera Spark guide

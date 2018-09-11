@@ -46,7 +46,7 @@ Today's data is very big:
 - blocks are written on LOCAL hard disks (this is NOT how HPC systems behave - they have dedicated storage separate from compute)
 - commands are similar to the usual Unix file system e.g. `hdfs dfs -ls`
 - (show demo) - ssh kp807@data1.cs.rutgers.edu
-- https://github.com/rutgers-oarc/hadoop_intro/blob/master/hadoop-for-everyone.pdf  - near the end
+- hdfs dfs commands reference: https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/FileSystemShell.html 
 
 ## MapReduce
 

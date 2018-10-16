@@ -1,0 +1,4 @@
+{"name":"Michael", "salary":3000, "geo": {"lat": 100.33, "lon": 90.0}}
+{"name":"Andy", "salary":4500, "geo": {"lat": 100.33, "lon": 90.0}}
+{"name":"Justin", "salary":350, "geo": {"lat": 100.33, "lon": 90.00}}
+{"name":"Berta", "salary":4000, "geo": {"lat": 100.33, "lon": 90.0}}

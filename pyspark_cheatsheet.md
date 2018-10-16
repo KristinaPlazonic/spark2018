@@ -24,11 +24,14 @@ spark.stop()
 ### Creating a schema for a DataFrame
 
 
+```
 myschema = df.schema      # from existing DataFrame
 myschema = 
+```
 
 ### Creating DataFrame objects
 
+```
 df = spark.read.json("customer.json")                                  # from json 
 df = spark.read.json("customer.json", schema=myschema)                 # from json 
 df = spark.read.csv("customer.csv")                                    # from csv
@@ -41,6 +44,7 @@ df = spark.read.parquet("customer.parquet")                            # from pa
 df.write.csv("my/file/path/data.csv")
 df.write.json("my/file/path/data.json")
 df.write.parquet("my/file/path/data.parquet")
+```
 
 ### Basic dataframe commands
 

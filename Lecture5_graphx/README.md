@@ -25,7 +25,7 @@ Pregel comes from "parallel, graph, google". There are many tutorials on Pregel 
 
 We will look at 3 applications of pregel: 
 1. [find maximum value among vertices](https://www.cakesolutions.net/teamblogs/graphx-pregel-api-an-example)
-2. [PageRank](https://www.safaribooksonline.com/library/view/apache-spark-graph/9781784391805/ch06s04.html)
+2. [PageRank](https://www.safaribooksonline.com/library/view/apache-spark-graph/9781784391805/ch06s04.html)  and/or [this video](https://www.coursera.org/lecture/data-manipulation/pagerank-in-pregel-uxVhd)
 3. [Shortest path length from a single point](https://spark.apache.org/docs/latest/graphx-programming-guide.html#pregel-api)
 
 vprog examples: 
@@ -78,7 +78,7 @@ def mergeMsg(msg1: Int, msg2: Int): Int = msg1 min msg2
 
 - `VertexRDD[VD]` - distributed collection of vertices of type `VD` - can be Int, String, tuples etc. Each vertex has an id of type Long, but can also have properties of type VD. 
 - `EdgeRDD[ED]` - distributed collection of edges of type `ED`. Each edge also has an id of type Long, and can have properties. 
-- triplet = an edge with its two vertices. `EdgeTriplet[VD, ED]`
+- triplet = an edge with its two vertices. `EdgeTriplet[VD, ED]`. It has 5 pieces of data: 2 vertex ids (`srcId`, `dstId`) and 3 property types ( `srcAttr` and `dstAttr` which are vertex properties of type VD, and `attr` which is an edge property of type ED)
 
 ![Efficient representation of Vertices and Edges](https://spark.apache.org/docs/latest/img/vertex_routing_edge_tables.png)
 

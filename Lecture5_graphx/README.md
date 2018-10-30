@@ -24,9 +24,9 @@ Pregel comes from "parallel, graph, google". There are many tutorials on Pregel 
 ```
 
 We will look at 3 applications of pregel: 
-1. ![find maximum value among vertices](https://www.cakesolutions.net/teamblogs/graphx-pregel-api-an-example)
-2. ![PageRank](https://www.safaribooksonline.com/library/view/apache-spark-graph/9781784391805/ch06s04.html)
-3. ![Shortest path length from a single point](https://spark.apache.org/docs/latest/graphx-programming-guide.html#pregel-api)
+1. [find maximum value among vertices](https://www.cakesolutions.net/teamblogs/graphx-pregel-api-an-example)
+2. [PageRank](https://www.safaribooksonline.com/library/view/apache-spark-graph/9781784391805/ch06s04.html)
+3. [Shortest path length from a single point](https://spark.apache.org/docs/latest/graphx-programming-guide.html#pregel-api)
 
 vprog examples: 
 ```
@@ -116,7 +116,7 @@ networkx is probably the best known graph library out there. It's written in pyt
 
 ## Ford Go Bike 
 
-- ![data download](https://www.fordgobike.com/system-data)
-- ![map of bike stations](https://member.fordgobike.com/map/)
+- [data download](https://www.fordgobike.com/system-data)
+- [map of bike stations](https://member.fordgobike.com/map/)
 
 

@@ -15,7 +15,7 @@ Pregel comes from "parallel, graph, google". There are many tutorials on Pregel 
 > It can send messages to other vertices (typically along outgoing edges) that the vertices will receive in the next superstep S+1.
 > In this approach, all communations are between supersteps S and S+1. Within each superstep, the same user-defined function f is applied to all of the vertices in parallel.
 
-[look at the illuminating picture](pregel_supersteps.png)
+![look at the illuminating picture](pregel_supersteps.png)
 ```
   def pregel[A](initialMsg: A, maxIterations: Int, activeDirection: EdgeDirection)(
       vprog: (VertexId, VD, A) => VD,         
